@@ -29,4 +29,4 @@ Para padronização do ambiente e porque o docker evita problemas de dependênci
 ## 5. Altere temporariamente o código para fazer um teste falhar
 
 *Imagem do erro  em [img/erro-Pipeline.png]
-A alteração para gerar o erro foi no arquivo greeting.go ao modificar o return, muadando de return "fmt.Sprintf("Olá, %s!", name)" para "oi, " + nome.
+A alteração para gerar o erro foi no arquivo greeting.go ao modificar o return, muadando de return fmt.Sprintf("Olá, %s!", name) para "oi, " + nome.
